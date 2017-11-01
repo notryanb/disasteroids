@@ -18,7 +18,6 @@ fn main() {
     const HEIGHT: u32 = 640;
 
     let opengl = OpenGL::V3_2;
-    // let game_size = Size::new(1024.0, 600.0);
     let mut window: PistonWindow = WindowSettings::new(
             "Disasteroids",
             [WIDTH, HEIGHT]
@@ -31,4 +30,10 @@ fn main() {
 
     window.set_ups(60);
     window.set_max_fps(60);    
+
+    while let Some(e) = window.next() {
+        match e {
+            _ => {}
+        }
+    }
 }
