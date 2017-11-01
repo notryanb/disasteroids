@@ -1,6 +1,9 @@
 [package]
 name = "disasteroids"
-version = "0.1.0"
+version = "0.0.1"
 authors = ["notryanb <notryanb@gmail.com>"]
 
 [dependencies]
+piston_window = "0.73.0"
+piston2d-opengl_graphics = "0.49.0"
+rand = "0.3.17"
